@@ -1,9 +1,11 @@
-const About= () => {
+import { Layout } from "../components/Layout";
+
+const About = () => {
   return (
-    <div>
+    <Layout>
       <h1>About page</h1>
-    </div>
+    </Layout>
   );
 };
 
-export default About
+export default About;
